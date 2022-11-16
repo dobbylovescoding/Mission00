@@ -1,0 +1,131 @@
+.Navbar {
+  width: 100%;
+  height: 65px;
+  border-bottom: 2px solid #008970;
+  background-color: #008970;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #99eedf;
+}
+.profileAvatar {
+  overflow: hidden;
+  background-position: center;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  border: 1px solid #99eedf;
+  background-color: #99eedf;
+  margin-right: 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+  margin-left: 10px;
+}
+
+.ul {
+  list-style: none;
+  display: flex;
+  flex-flow: row nowrap;
+  margin-right: 10px;
+  margin-left: auto;
+}
+
+.ulClosed {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  list-style: none;
+  background-color: #008970;
+  position: relative;
+  margin-top: 366px;
+  height: 300px;
+  width: 200px;
+  margin-right: -52px;
+  margin-left: auto;
+}
+
+.li {
+  padding: 18px 10px;
+  cursor: pointer;
+}
+
+.li:hover {
+  padding: 18px 10px;
+  cursor: pointer;
+  color: #008970;
+  background-color: #99eedf;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+.StyledBurger {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: space-around;
+  margin-left: auto;
+  flex-flow: column nowrap;
+}
+
+.div {
+  width: 2rem;
+  height: 0.25rem;
+  background-color: #99eedf;
+  border-radius: 10px;
+}
+
+@media (min-width: 796px) {
+  .menu {
+    display: none;
+  }
+
+  .ulClosed {
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    margin-right: 10px;
+    margin-left: auto;
+    margin-top: 0;
+    height: auto;
+    width: auto;
+  }
+}
+
+@media (max-width: 795px) {
+  .ul {
+    display: none;
+    flex-flow: column nowrap;
+    background-color: #f1f1f1;
+    position: relative;
+    top: 0;
+    right: 0;
+    height: 300px;
+    width: 300px;
+    margin-top: 3.5rem;
+    margin-right: -60px;
+  }
+
+  .ulClosed {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    list-style: none;
+    background-color: #008970;
+    position: relative;
+    margin-top: 366px;
+    height: 300px;
+    width: 200px;
+    margin-right: -52px;
+    margin-left: auto;
+  }
+  .Navbar {
+    font-size: 16px;
+  }
+}

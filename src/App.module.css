@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #d3efea;
+}
+
+.cont {
+  display: flex;
+  flex-direction: column;
+}
+
+.search {
+  height: 600px;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+}
