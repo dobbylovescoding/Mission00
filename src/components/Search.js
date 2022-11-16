@@ -5,7 +5,7 @@ export default function Search() {
   return (
     <div className={styles.cont}>
       <section className={styles.dream}>
-        Dream to Dare, <br /> Dare to Dream!
+        Dream to Darehh, <br /> Dare to Dream!
       </section>
 
       <div className={styles.bar}>
