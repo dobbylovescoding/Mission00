@@ -1,22 +1,23 @@
 .Navbar {
+  font-family: "Patrick Hand", cursive;
   width: 100%;
   height: 65px;
-  border-bottom: 2px solid #008970;
-  background-color: #008970;
-  padding: 0 20px;
+  font-size: 22px;
+  background-color: #708d81;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #99eedf;
+  color: #f4d58d;
 }
 .profileAvatar {
   overflow: hidden;
   background-position: center;
-  width: 3em;
-  height: 3em;
+  width: 2.8em;
+  height: 2.8em;
   border-radius: 50%;
-  border: 1px solid #99eedf;
-  background-color: #99eedf;
+  border: 2px solid #f4d58d;
+  background-color: #708d81;
   margin-right: 10px;
 }
 
@@ -35,18 +36,32 @@
   margin-left: auto;
 }
 
+.button {
+  font-family: "Patrick Hand", cursive;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: #708d81;
+  font-weight: 600;
+  font-size: 22px;
+  border-radius: 1px;
+  border: solid #f4d58d;
+  cursor: pointer;
+  color: #f4d58d;
+  transition: 0.7s;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .ulClosed {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
   list-style: none;
-  background-color: #008970;
+  background-color: #708d81;
   position: relative;
-  margin-top: 366px;
+  margin-top: 360px;
   height: 300px;
-  width: 200px;
-  margin-right: -52px;
-  margin-left: auto;
+  width: 100vh;
 }
 
 .li {
@@ -90,7 +105,6 @@
     list-style: none;
     display: flex;
     flex-flow: row nowrap;
-    margin-right: 10px;
     margin-left: auto;
     margin-top: 0;
     height: auto;
@@ -114,18 +128,15 @@
 
   .ulClosed {
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
+    align-items: center;
     list-style: none;
-    background-color: #008970;
-    position: relative;
-    margin-top: 366px;
-    height: 300px;
-    width: 200px;
-    margin-right: -52px;
-    margin-left: auto;
+    background-color: #708d81;
+    position: absolute;
+    width: 100%;
+    font-size: 26px;
   }
   .Navbar {
-    font-size: 16px;
+    font-size: 20px;
   }
 }

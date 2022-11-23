@@ -18,8 +18,7 @@ export default function Navbar2() {
         <li className={styles.li}>Home</li>
         <li className={styles.li}>About Us</li>
         <li className={styles.li}>Contact Us</li>
-        <li className={styles.li}>Sign In</li>
-        <li className={styles.li}>SIgn Up</li>
+        <button className={styles.button}>Log In</button>
       </ul>
       <div className={styles.menu}>
         <div className={styles.StyledBurger} onClick={toggleOpen}>

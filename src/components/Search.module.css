@@ -3,16 +3,18 @@
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 80%;
+  height: 100%;
 }
 
 .dream {
+  font-family: "Patrick Hand", cursive;
+  letter-spacing: 2px;
   font-weight: 800;
   font-size: 80px;
-  color: #caf6ee;
+  color: #f4d58d;
   padding-top: 90px;
   padding-left: 100px;
-  text-shadow: 0 0 2px #008970, 0 0 4px #008970;
+  /* text-shadow: 0 0 2px #f6c656, 0 0 4px #f6c656; */
 }
 
 .bar {
@@ -36,9 +38,9 @@
 .button {
   font-size: 20px;
   font-weight: 600;
-  background-color: #008970;
+  background-color: #708d81;
   color: whitesmoke;
-  border: 2px solid #008970;
+  border: 2.5px solid #708d81;
   padding: 6px 40px 6px 40px;
   cursor: pointer;
   transition: 1s ease-in-out;

@@ -4,11 +4,22 @@
   box-sizing: border-box;
 }
 
+.App {
+  position: relative;
+  min-height: 100vh;
+}
+
+.Footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
 body {
   font-family: "Fira Sans", sans-serif;
   font-size: 20px;
   font-weight: 600;
-  background-color: #d3efea;
+  background-color: #8cbfa4;
 }
 
 .cont {
